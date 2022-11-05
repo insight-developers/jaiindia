@@ -395,6 +395,18 @@
         </footer>
 
     </div><!-- end wrapper -->
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      
+      <div class="modal-body">
+            <img src="images/news.jpg alt="in news">    
+      </div>
+      
+    </div>
+  </div>
+</div>
 <!-- jQuery Files -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -418,6 +430,9 @@
                 }); 
             } 
         }); 
+        $(document).ready(function(){
+           $('#myModal').modal('show')
+        });
 </script>
 </body>
 </html>
